@@ -21,13 +21,18 @@ body{
     font-size: 18px;
     color: #FFFFFF;
     background-color: rgb(178, 223, 223);
+    line-height: 1.7;
 }
 .theme-button{
     display: inline-block;
     background: #4F9CF9;
     border-radius: 8px;
     padding: 16px 24px !important;
-    margin-left: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.theme-button:hover{
+    color: #FFFFFF;
 }
 .theme-button-two{
     display: inline-block;
@@ -35,7 +40,6 @@ body{
     border-radius: 8px;
     padding: 16px 24px !important;
     color: #043873 !important;
-    margin-left: 24px;
 }
 .theme-button img{
     margin-left: 10px;
@@ -45,6 +49,12 @@ body{
  .header-area{
     background-color:#043873 ;
     padding: 16px 0;
+ }
+ .header-area .theme-button{
+    margin-left: 24px;
+ }
+ .header-area .theme-button-two{
+    margin-left: 24px;
  }
  
  .header-area .nav-link{
@@ -71,6 +81,7 @@ body{
         width: 100%;
         text-align: center;
         margin-top: 15px;
+        
     }
     .header-area .nav-link{
         padding:16px 0 !important;
@@ -84,4 +95,45 @@ body{
         top: 50%;
         transform: translate(-50%);
      }
+     .header-area .theme-button{
+        margin-left: 0px;
+     }
+     .header-area .theme-button-two{
+        margin-left: 0px;
+     }
+     
+ }
+
+ /* start hero area */
+ .hero-area{
+    padding: 100px 0;
+    background-image: url(img/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+ }
+ .hero-text h3{
+    font-weight: 700;
+    font-size: 52px;
+    
+    letter-spacing: -0.02em;
+ }
+ .hero-area .theme-button{
+    margin-top: 30px;
+ }
+ @media (max-width: 991px){
+    .hero-text{
+        text-align: center;
+        
+    }
+    .hero-text h3{
+        font-size: 36px;
+        
+    }
+    .hero-area .theme-button{
+        margin-bottom: 30px;
+     }
+     .hero-area{
+        padding: 80px 0;
+     }
+
  }
