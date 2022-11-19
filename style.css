@@ -215,3 +215,15 @@ body{
     .extension-area{
         padding: 80px 0;}
  }
+
+ .customise-area{
+    padding: 140px 0;
+    background-color: #FFFFFF;
+}
+
+@media (max-width: 991px){
+    .customise-area{
+    padding: 80px 0;}
+    .customise-area .theme-text{
+        margin-top: 50px;}
+}
