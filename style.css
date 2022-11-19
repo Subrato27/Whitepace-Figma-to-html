@@ -45,6 +45,34 @@ body{
     margin-left: 10px;
 }
 
+.theme-text h3{
+    font-weight: 700;
+    font-size: 72px;
+    color: #212529;
+    margin-bottom: 15px;
+    letter-spacing: -0.02em;
+ }
+ .theme-text p{
+    color: #212529;
+ }
+ .theme-text h3 span{
+    position: relative;
+    z-index: 1;
+ }
+ .theme-text h3 span::after{
+    position: absolute;
+    content: "";
+    width: 105%;
+    Height: 43px;
+    left: 0px;
+    bottom: 0;
+    z-index: -1;
+    background-image: url(img/element.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+ }
+
+
  /* header css */
  .header-area{
     background-color:#043873 ;
@@ -137,3 +165,33 @@ body{
      }
 
  }
+
+ /* management area start */
+ .management-area{
+    padding: 100px 0;
+    background-color: #FFFFFF;
+ }
+ .work-together{
+    margin-top: 100px;
+}
+.work-together .theme-text h3 span::after{
+    width: 105%;
+    Height: 43px;
+}
+
+ @media (max-width: 991px){
+    .theme-text{
+        text-align: center;
+    }
+    .theme-text h3{
+        font-size: 36px;
+        color: #212529;
+        margin-bottom: 15px;}
+    .management-area .theme-button{
+         margin-bottom: 50px;}
+    .management-area{
+         padding: 80px 0;}
+    .work-together{
+         margin-top: 60px;}
+}
+
