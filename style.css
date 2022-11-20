@@ -41,6 +41,15 @@ body{
     padding: 16px 24px !important;
     color: #043873 !important;
 }
+.theme-button-three{
+   display: inline-block;
+   background: #FFFFFF ;
+   border:  1px solid #FFE492;
+   border-radius: 8px;
+   padding: 16px 24px !important;
+   color: #043873 !important;
+   text-decoration: none;
+}
 .theme-button img{
     margin-left: 10px;
 }
@@ -226,4 +235,71 @@ body{
     padding: 80px 0;}
     .customise-area .theme-text{
         margin-top: 50px;}
+}
+
+/* Start Pricing area */
+.Pricing-area{
+   padding: 140px 0;
+   background-color: #FFFFFF;
+}
+.Pricing-area .theme-text{
+   text-align: center;
+}
+.Pricing-area .row{
+   margin-bottom: 60px;
+}
+.single-pricing{
+   color: #212529;
+   padding: 40px 44px;
+   background: #FFFFFF;
+   border: 1px solid #FFE492;
+   border-radius: 10px;
+}
+.single-pricing h4{
+   font-size: 24px;
+   font-weight: 600;
+   margin-bottom: 25px;
+}
+.single-pricing h2{
+   font-size: 36px;
+   font-weight: 700;
+   margin-bottom: 25px;
+}
+.single-pricing h5{
+   font-size: 18px;
+   font-weight: 500;
+   margin-bottom: 25px;
+}
+.single-pricing p{
+   font-size: 16px;
+   font-weight: 400;
+}
+.single-pricing ul{
+   margin: 0;
+   padding: 0;
+}
+.single-pricing li{
+   list-style: none;
+   margin-bottom: 28px;
+}
+.single-pricing li img{
+   margin-right: 19px;
+}
+.special-pricing{
+   padding: 80px 40px;
+   background-color: #043873;
+   color: #FFFFFF;
+}
+.special-pricing h2{
+   color: #FFE492;
+}
+
+@media (max-width: 991px){
+   .Pricing-area{
+      padding: 80px 0;
+   
+   }
+   .special-pricing{
+      margin-bottom: 30px;
+   }
 }
