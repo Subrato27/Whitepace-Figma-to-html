@@ -303,3 +303,21 @@ body{
       margin-bottom: 30px;
    }
 }
+
+/* Start your work */
+.your-work-area{
+   padding: 140px;
+   background-color: #043873;
+   
+}
+.your-work-area h3{
+   color: #FFFFFF; !important
+}
+.your-work-area p{
+   color: #FFFFFF; !important
+}
+.your-text h3 span::after{
+   
+   background-image: url(img/icon-y.png);
+   
+}
