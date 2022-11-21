@@ -321,6 +321,10 @@ body{
    background-image: url(img/icon-y.png);
    
 }
+@media (max-width: 991px){
+   .your-work-area{
+      padding: 140px;}
+}
 
 /* start your data */
 .your-data-area{
@@ -333,5 +337,26 @@ body{
    }
    .your-data-image{
       margin-bottom: 100px;
+   }
+}
+.sponsors-area{
+   padding: 140px 0;
+   background-color: #FFFFFF;
+   color: #212529;
+}
+.sponsors-area .data-text{
+   margin-bottom: 80px;
+}
+.single-sponsore img{
+   height: 55px;
+   width: auto;
+}
+@media (max-width: 991px){
+   .sponsors-area{
+   padding-top: 80px;
+   padding-bottom: 30px;}
+
+   .single-sponsore{
+      margin-bottom: 50px;
    }
 }
