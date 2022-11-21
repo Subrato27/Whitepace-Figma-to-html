@@ -321,3 +321,17 @@ body{
    background-image: url(img/icon-y.png);
    
 }
+
+/* start your data */
+.your-data-area{
+   padding: 140px 0;
+   background-color: #FFFFFF;
+}
+@media (max-width: 991px){
+   .your-data-area{
+      padding: 80px 0;
+   }
+   .your-data-image{
+      margin-bottom: 100px;
+   }
+}
