@@ -323,7 +323,7 @@ body{
 }
 @media (max-width: 991px){
    .your-work-area{
-      padding: 140px;}
+      padding: 80px 0;}
 }
 
 /* start your data */
@@ -358,5 +358,31 @@ body{
 
    .single-sponsore{
       margin-bottom: 50px;
+   }
+}
+/* start apps area */
+
+.apps-area{
+   padding: 100px 0;
+   background-image: url(img/apps-bg.png);
+   background-size: cover;
+   background-position: center;
+}
+.apps-area .theme-text h3{
+   color: #FFFFFF;
+}
+.apps-area .theme-text p{
+   color: #FFFFFF;
+}
+@media (max-width: 991px){
+   .apps-area{
+      padding: 80px 0;
+   }
+   .apps-area .theme-text{
+      margin-top: 80px;
+      
+   }
+   .apps-area .theme-button{
+      margin-top: 40px;
    }
 }
